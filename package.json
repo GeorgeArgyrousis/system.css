@@ -1,8 +1,15 @@
 {
   "name": "tokens.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design system tokens based on CSS custom properties",
   "main": "tokens.css",
+  "keywords": [
+      "css",
+      "css custom properties",
+      "css design tokens",
+      "css design system tokens",
+      "css design system"
+  ],
   "author": "George Argyrousis",
   "license": "MIT"
 }
