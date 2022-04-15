@@ -83,6 +83,7 @@
     /* Border
      ========================================================================== */
 
+    /* Border color */
     --border-color-lighter: var(--gray-2);
     --border-color-light:   var(--gray-3);
     --border-color:         var(--gray-5);
@@ -93,4 +94,13 @@
     --border-radius-small: calc(var(--base-unit) * 1);
     --border-radius-medium: calc(var(--base-unit) * 2);
     --border-radius-large: calc(var(--base-unit) * 2);
+
+    /* Transition
+     ========================================================================== */
+
+    --transition-faster:    0.1s;
+    --transition-fast:      0.2s;
+    --transition-normal:    0.3s;
+    --transition-slow:      0.4s;
+    --transition-slower:    0.5s;
 }
