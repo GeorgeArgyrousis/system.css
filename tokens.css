@@ -1,5 +1,5 @@
 :root {
-    /* Units
+    /* Core units
      ========================================================================== */
     --base-unit:        0.25rem;
     --base-half-unit:   calc(var(--base-unit) / 2);
@@ -8,11 +8,11 @@
      ========================================================================== */
 
     /* Fonts */
-    --font-family-primary:      Helvetica;
-    --font-family-secondary:    Arial;
+    --font-family-primary:      sans-serif;
+    --font-family-secondary:    serif;
 
     --font-base-unit: var(--base-unit);
-    /* Font sizes */
+    /* Font sizes - 4x4 grid */
     --font-size-12: calc(var(--font-base-unit) * 3);
     --font-size-16: calc(var(--font-base-unit) * 4);
     --font-size-20: calc(var(--font-base-unit) * 5);
@@ -38,17 +38,14 @@
      ========================================================================== */
 
     --space-base-unit: var(--base-unit);
-    /* Margin, Padding */
-    --space-4:  calc(var(--space-base-unit) * 1);
+    /* Margin, Padding - 8x8 grid */
     --space-8:  calc(var(--space-base-unit) * 2);
-    --space-12: calc(var(--space-base-unit) * 3);
     --space-16: calc(var(--space-base-unit) * 4);
-    --space-20: calc(var(--space-base-unit) * 5);
     --space-24: calc(var(--space-base-unit) * 6);
-    --space-28: calc(var(--space-base-unit) * 7);
     --space-32: calc(var(--space-base-unit) * 8);
-    --space-36: calc(var(--space-base-unit) * 9);
     --space-40: calc(var(--space-base-unit) * 10);
+    --space-48: calc(var(--space-base-unit) * 12);
+    --space-64: calc(var(--space-base-unit) * 16);
 
     /* Breakpoints
      ========================================================================== */
