@@ -1,0 +1,8 @@
+{
+  "name": "tokens.css",
+  "version": "1.0.0",
+  "description": "Design system tokens based on CSS custom properties",
+  "main": "tokens.css",
+  "author": "George Argyrousis",
+  "license": "MIT"
+}
