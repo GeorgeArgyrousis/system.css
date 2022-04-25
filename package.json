@@ -1,8 +1,12 @@
 {
   "name": "tokens.css",
-  "version": "1.0.1",
+  "version": "1.1.2",
   "description": "Design system tokens based on CSS custom properties",
   "main": "tokens.css",
+  "files": [
+      "tokens.css",
+      "tokens.min.css"
+  ],
   "keywords": [
       "css",
       "css custom properties",

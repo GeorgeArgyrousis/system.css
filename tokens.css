@@ -38,7 +38,7 @@
      ========================================================================== */
 
     --space-base-unit: var(--base-unit);
-    /* Margin, Padding - 8x8 grid */
+    /* Margin, Padding */
     --space-8:  calc(var(--space-base-unit) * 2);
     --space-16: calc(var(--space-base-unit) * 4);
     --space-24: calc(var(--space-base-unit) * 6);
@@ -91,9 +91,9 @@
     --border-color-darker:  var(--gray-9);
     
     /* Border radius */
-    --border-radius-small: calc(var(--base-unit) * 1);
+    --border-radius-small:  calc(var(--base-unit) * 1);
     --border-radius-medium: calc(var(--base-unit) * 2);
-    --border-radius-large: calc(var(--base-unit) * 2);
+    --border-radius-large:  calc(var(--base-unit) * 3);
 
     /* Transition
      ========================================================================== */
