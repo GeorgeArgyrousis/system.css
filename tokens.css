@@ -98,9 +98,11 @@
     /* Transition
      ========================================================================== */
 
-    --transition-faster:    0.1s;
-    --transition-fast:      0.2s;
-    --transition-normal:    0.3s;
-    --transition-slow:      0.4s;
-    --transition-slower:    0.5s;
+    --transition-base-unit: 0.1s;
+
+    --transition-faster:    calc(var(--transition-base-unit) * 1);
+    --transition-fast:      calc(var(--transition-base-unit) * 2);
+    --transition-normal:    calc(var(--transition-base-unit) * 3);
+    --transition-slow:      calc(var(--transition-base-unit) * 4);
+    --transition-slower:    calc(var(--transition-base-unit) * 5);
 }
